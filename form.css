@@ -1,0 +1,113 @@
+body{
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-right: 100px;
+	padding: 10px;
+	background-color: white;
+	/*display: flex;*/
+}
+
+.main{
+	padding: 15px;
+	width: 900px;
+	height: 1150px;
+	border: 2px solid black;
+	border-radius: 15px;
+
+}
+
+header{
+	border-bottom: 5px solid black;
+	padding-left: 25px;
+	padding-bottom: 15px;
+}
+
+h1{
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;	
+}
+
+form{
+	padding: 25px;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+input{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	border-radius: 15px;
+
+}
+
+textarea{
+	padding: 10px;
+	border-radius: 15px;
+	
+}
+
+label{
+	padding: 10px;
+	display: inline-block;
+}
+
+footer{
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+	border-top: 5px solid black;
+}
+
+input[type=text], textarea {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  float: right;
+}
+
+input[type=date] {
+	width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  float: right;
+  font-size: 20px;
+  font-family: serif;
+
+}
+
+@media screen and (max-width: 982px){
+
+	body{
+	margin-left: 50px;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: white;
+
+}
+.main{
+	/*height: 1300px;*/
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 15px;
+	height: auto;
+	width: auto;
+
+}
+input[type=text], textarea {
+  width: 40%;
+  
+}
+
+input[type=date] {
+	width: 40%;
+  
+}
+
+}
+
+
